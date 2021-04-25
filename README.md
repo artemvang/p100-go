@@ -2,7 +2,7 @@
 Library for communicating with Tapo P100 smart plug.
 
 ## Example usage:
-```
+```go
 plug := p100.New("192.168.0.100", "example@gmail.com", "password")
 
 if err := device.Handshake(); err != nil {
